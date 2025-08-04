@@ -4,7 +4,10 @@ This technique involves stealing access tokens from privileged processes to impe
 
 # Usage
 
+```sh
 g++ -o thrask.exe thrask.cpp -ladvapi32
+```
 
+```sh
 thrask.exe [PID TARGET]
-
+```
